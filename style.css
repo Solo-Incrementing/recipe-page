@@ -163,6 +163,10 @@ ol li::marker {
 	#main-image {
 		border-radius: 0;
 	}
+
+	.attribution {
+		font-size: 12px;
+	}
 }
 
 @media (max-width: 450px) {
