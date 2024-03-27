@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://solo-incrementing.github.io/recipe-page/](FrontendMentor)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-omelette-recipe-page-06WV7XtcbW](FrontendMentor)
 - Live Site URL: [https://solo-incrementing.github.io/recipe-page/](Live)
 
 ## My process
