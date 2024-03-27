@@ -44,8 +44,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 You can implement a separator line between table row elements using a bottom border on the table rows and marking the border-collapse property for the table to collapse to ensure the border can be seen.
 
-To see how you can add code snippets, see below:
-
 ```css
 table {
 	width: 100%;
@@ -56,8 +54,6 @@ tr {
 	border-bottom: 1px solid var(--primary-accent-color);
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
