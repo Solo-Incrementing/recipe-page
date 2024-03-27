@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-bg-color: hsl(30, 54%, 90%);
+	--secondary-bg-color: hsl(0, 0%, 100%);
+	--tertiary-bg-color: hsl(330, 100%, 98%);
+	--primary-heading-color: hsl(24, 5%, 18%);
+	--secondary-heading-color: hsl(14, 45%, 36%);
+	--tertiary-heading-color: hsl(332, 51%, 32%);
+	--primary-text-color: hsl(30, 10%, 34%);
+	--primary-accent-color: hsl(30, 18%, 87%);
+}
+
+body {
+	background-color: var(--primary-bg-color);
+}
+
+h1,
+h2 {
+	font-family: "Young Serif", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 20px 0;
+}
+
+h3,
+p,
+span,
+td,
+li {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+h1 {
+	color: var(--primary-heading-color);
+}
+
+h2 {
+	color: var(--secondary-heading-color);
+	font-size: 24px;
+}
+
+h3 {
+	font-weight: 600;
+	color: var(--tertiary-heading-color);
+	margin-bottom: 10px;
+}
+
+td,
+p,
+li {
+	color: var(--primary-text-color);
+}
+
+p {
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+span {
+	font-weight: 700;
+	color: var(--primary-text-color);
+}
+
+ul,
+ol {
+	margin: 0;
+}
+
+li {
+	margin-left: 20px;
+	padding: 5px 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid var(--primary-accent-color);
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+td {
+	padding: 16px;
+}
+
+#recipe {
+	background-color: var(--secondary-bg-color);
+	max-width: 700px;
+	margin: 100px auto;
+	padding: 32px;
+	border-radius: 20px;
+}
+
+#main-image {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.prep-section {
+	background-color: var(--tertiary-bg-color);
+	padding: 20px;
+}
+
+.section-separator {
+	background-color: var(--primary-accent-color);
+	height: 1px;
+	margin: 20px auto;
+}
+
+.nutrition-value {
+	font-weight: 600;
+	color: var(--secondary-heading-color);
+}
+
+.prep-section li::marker {
+	color: var(--tertiary-heading-color);
+	font-size: 12px;
+}
+
+section li::marker {
+	color: var(--secondary-heading-color);
+}
+
+ol li::marker {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.attribution {
+	text-align: center;
+}
